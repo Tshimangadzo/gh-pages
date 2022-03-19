@@ -1,0 +1,105 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aquamarine;
+}
+
+.city {
+  display: flex;
+  flex: 1;
+}
+
+.city_image{
+    flex:2;
+}
+
+.cityinfo{
+    flex:5;
+    margin-left: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+#mycity{
+    width: 100%;
+}
+
+.profile{
+ display: flex;
+
+}
+
+.profile .profile_picture img{
+    width:20%;
+    border-radius: 25%;
+    margin-left: 25%;
+}
+main{
+    margin: 10% 10% 10% 10%;
+}
+.somewords{
+    margin:20px 0px 20px 0px;
+}
+
+.small_boxex{
+    display: flex;
+    flex:1
+}
+
+.image_class{
+    display: flex;
+    flex:1;
+    margin-left: 20px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.image_div{
+    margin-top: 100px;
+}
+
+td {
+    border: 1px solid;
+  } 
+
+  .name{
+   margin-left: 25%;
+   font-size: xx-large;
+  }
+/* @media screen and (max-width: 600px) { */
+  /* .image_class {
+    margin-top: 50px;
+    display: flex;
+    flex: 1;
+  }
+  .image_class .image_div img {
+    border-radius: 50%;
+  }
+  .first_p {
+    margin-left: 5%;
+  }
+
+
+  #profile_image {
+    width: 50%;
+    border-radius: 25%;
+  }
+  .name {
+    margin-top: 25px;
+    font-size: 29px;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .profile {
+    margin-left: 25%;
+  }
+
+  .languages {
+    margin-top: 20px;
+  }
+
+}
